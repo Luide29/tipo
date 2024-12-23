@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Musica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!--menu pricipal-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-danger" href="#"><strong>Musica</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/quemsomos.html">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cliente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contato.html">Contato</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="#" class="btn btn-primary">Fale conosco</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Carrossel -->
+    <div id="carouselExample" class="carousel slide text-body" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/studio2.jpg" class="d-block w-100" alt="Studio">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Studio</h5>
+            <p>Um studio com otimos equipamento para Gravar sua música</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/istockphoto-1408070712-612x612.jpg" class="d-block w-100" alt="Imagem 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Equalização</h5>
+            <p>Equalizando com a melhor qualidade.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sala2-foto-01.jpeg" class="d-block w-100" alt="Escritório">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>escritorio</h5>
+            <p>Um Lugar com conforto e espaço para as reunião.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev btn btn-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next btn btn-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Seção Quem Somos -->
+    <section id="quem-somos" class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="display-4">Quem Somos</h2>
+            <p class="lead text-muted">Somos uma empresa apaixonada por música e dedicada a transformar ideias em realidade sonora. Com uma equipe criativa e experiente, nossa missão é levar sua música ao mundo, cuidando de cada detalhe do processo de produção musical, da composição à gravação final.</p>
+            <p>Acreditamos no poder da música como meio de expressão, conexão e inovação. Trabalhamos com artistas de todos os gêneros e estilos, ajudando-os a alcançar seu potencial máximo e a criar algo único e autêntico. Nossa infraestrutura de ponta, aliada ao talento de nossos profissionais, garante uma produção de alta qualidade, que faz sua música brilhar em qualquer cenário.</p>
+            
+            <h3>O que fazemos:</h3>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-music-note-beamed text-primary"></i> Produção musical completa</li>
+              <li><i class="bi bi-gear-fill text-primary"></i> Arranjos e gravação de músicas</li>
+              <li><i class="bi bi-mic-fill text-primary"></i> Mixagem e masterização profissional</li>
+              <li><i class="bi bi-caret-right-fill text-primary"></i> Consultoria para artistas e bandas</li>
+              <li><i class="bi bi-cloud-arrow-down text-primary"></i> Distribuição digital em plataformas musicais</li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-6">
+            <img src="./img/logo.jpg" alt="Imagem de Produção Musical" class="img-fluid rounded">
+          </div>
+        </div>
+      </section>
+  
+      <!-- Seção Depoimentos -->
+      <section class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">O que nossos clientes dizem</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <p class="card-text">"A equipe da Musica Pro fez com que minha música soasse exatamente como eu imaginava. Eles têm um talento incrível e uma dedicação impressionante!"</p>
+                  <footer class="blockquote-footer">João Silva, Cantor e Compositor</footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <p class="card-text">"O trabalho deles é excepcional! Desde a gravação até a distribuição da música, eles cuidam de tudo com muito profissionalismo."</p>
+                  <footer class="blockquote-footer">Maria Oliveira, Banda Rock Now</footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <p class="card-text">"Eu recomendo a Musica Pro para qualquer artista que queira ver sua música ganhar vida. A equipe é super criativa e acessível."</p>
+                  <footer class="blockquote-footer">Carlos Andrade, DJ e Produtor Musical</footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="bg-dark text-white text-center p-4">
+        <p>&copy; 2024 Musica Pro. Todos os direitos reservados.</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
